@@ -37,18 +37,6 @@ class TitlePage extends PositionComponent {
   }
 
   void setFadeEffect(PositionComponent component) {
-    // OpacityEffect fadeIn = OpacityEffect.to(
-    //   1.0,
-    //   EffectController(duration: 2.4),
-    // );
-
-    // OpacityEffect fadeOut = OpacityEffect.to(
-    //   0.0,
-    //   DelayedEffectController(
-    //     delay: 3,
-    //     EffectController(duration: 2.4),
-    //   ),
-    // );
     OpacityEffect fadeIn = OpacityEffect.to(
       1.0,
       EffectController(duration: 0.4),
@@ -63,8 +51,6 @@ class TitlePage extends PositionComponent {
     );
     SequenceEffect fadeInOutSequence = SequenceEffect([fadeIn, fadeOut]);
     component.add(fadeInOutSequence);
-    // 만든 클래스
-    //TitlePage에서 fadeOut effect가 끝나면 mainMenuEvent를 발생시킴
     fadeOut.onComplete = () {
       removeFromParent();
       EventBus().publish(mainMenuEvent, this);
