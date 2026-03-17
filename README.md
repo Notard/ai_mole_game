@@ -1,3 +1,9 @@
+교보: https://product.kyobobook.co.kr/detail/S000219487630
+
+알라딘: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388348381
+
+예스24: https://www.yes24.com/product/goods/182707746
+
 이 프로젝트는 Flutter와 Flame 엔진을 사용하여 만든 두더지 잡기 게임입니다. 
 플레이어는 화면에 나타나는 두더지를 터치하여 점수를 획득하는 간단하고 재미있는 게임입니다. 
 이 게임을 통해 Flutter와 Flame 엔진을 활용한 2D 게임 개발의 기초를 배울 수 있습니다.
